@@ -8,10 +8,9 @@ from urllib.parse import urlparse
 BASE_URL = "https://api.vk.com/method/"
 
 
-def creat_parser():
+def create_parser():
     parser = argparse.ArgumentParser()
     parser.add_argument("link", nargs="?", help="Ссылка")
-    # parser.add_argument("--link", help="Ссылка", required=False)
     return parser
 
 
