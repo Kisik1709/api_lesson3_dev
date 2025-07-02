@@ -84,7 +84,7 @@ def main():
         print("Ошибка: переменная окружения токена не найдена")
         return
 
-    parser = creat_parser()
+    parser = create_parser()
     namespace = parser.parse_args()
     user_link = namespace.link
     if not user_link:
